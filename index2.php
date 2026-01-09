@@ -1,6 +1,7 @@
 <?php
 class Person
 {
+    private string $password = 'wdsfsdfsd';
     private string $firstname;
     public string $lastname;
     // protected string $password; //2
@@ -10,6 +11,11 @@ class Person
 
         $this->firstname = $string1;
         $this->lastname = $string2;
+    }
+
+    public function setFirstname($string)
+    {
+        $this->firstname = $string;
     }
 }
 
@@ -64,5 +70,7 @@ class Student extends Person
 $person = new Teacher('Francesco', 'Mansi', 89);
 $person->setFirstname('Jack');
 $person->getFirstname();
+
+var_dump($person);
 // $person->password = 'Ciccio';
 // echo $person->password;
