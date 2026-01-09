@@ -13,6 +13,7 @@ class Person
 
 
 trait Life
+
 {
     public $name;
 
