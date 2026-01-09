@@ -1,3 +1,5 @@
+## Ereditarietà
+
 Il concetto di Ereditarietà è fondamentale nella programmazione ad oggetti. Tramite questa proprietà è possibile fare in modo che una classe-figlio ottenga in maniera automatica (quindi ereditando) sia i metodi che le proprietà da un'altra classe-padre.
 
 Diciamo che una scuola è formata da docenti, amministrativi, addetti mensa e ovviamente alunni. Sia alunni che docenti sono persone, giusto? Sia alunni che docenti hanno nome, cognome ed età.
